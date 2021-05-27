@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Love&amp;Pets</string>
+    <string name="buttonstart_name">Искать друга</string>
+    <string name="textviewstart_name">Love&amp;Pets - помощник в поиске питомца</string>
+    <string name="homestart_name">Eto home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Home fragment</string>
+    <string name="additional_fragment">Additional fragment</string>
+    <string name="txt_help">Помощь</string>
+    <string name="txt_underhelp">здесь вы можете помочь организации, которая вам небезразлична</string>
+    <string name="txt_shelterName1">Приют "Право на жизнь" </string>
+    <string name="txt_shelterDescr1">Фонд помощи бездомным животным "Право на жизнь" создан неравнодушными людьми, которые не желают мириться с окружающим произволом в отношении к животным, равнодушием закона и жестокостью людей. Фонд создан зоозащитниками-волонтерами, которые считают, что у каждого животного должен быть свой дом и подобающее отношение, обеспечение естественных желаний и потребностей животного. А если всё-таки домашнее животное оказалось без дома, у него должно быть временное жилище, приют.
+Так происходит в цивилизованных странах во всем мире.
+МЫ ХОТИМ, ЧТОБЫ ТАК БЫЛО У НАС!</string>
+    <string name="button">Button</string>
+
+</resources>

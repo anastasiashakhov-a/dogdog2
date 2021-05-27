@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgapps3"
+    tools:context=".Profile.ProfileFragment">
+
+    <RelativeLayout
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/texthelp"
+            android:text="@string/txt_help"
+            android:fontFamily="@font/spectralsc_extralight"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="6dp"
+            android:layout_below="@id/texthelp"
+            android:text="@string/txt_underhelp"
+            android:fontFamily="@font/spectralsc_extralight"
+            android:textSize="14sp"
+            android:textColor="#F0CC4F"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:src="@drawable/animal_care"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_alignParentEnd="true">
+        </ImageView>
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gridview1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="50dp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+
+</LinearLayout>
